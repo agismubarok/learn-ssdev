@@ -1,0 +1,31 @@
+p {
+  font-family: arial;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+input {
+  padding: 12px;
+  border: none;
+  background-color: rgb(225, 224, 224);
+  color: gray;
+  width: 240px;
+}
+.pickup {
+  display: block;
+  margin-bottom: 5px;
+}
+.destination {
+  display: block;
+  margin-bottom: 20px;
+}
+button {
+  border: none;
+  padding: 12px;
+  font-size: 14px;
+}
+.request {
+  color: white;
+  background-color: black;
+  margin-right: 5px;
+}
