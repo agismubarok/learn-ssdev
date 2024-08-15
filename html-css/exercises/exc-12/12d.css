@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  height: 50px;
+  align-items: center;
+}
+.sama {
+  background-color: lightpink;
+}

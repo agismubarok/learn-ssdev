@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+.satu {
+  background-color: lightblue;
+  width: 50px;
+}
+.dua {
+  background-color: lightpink;
+  flex: 1;
+}
+.tiga {
+  background-color: lightblue;
+  width: 75px;
+}

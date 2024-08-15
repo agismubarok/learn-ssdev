@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+}
+.satu {
+  background-color: lightblue;
+  width: 200px;
+}
+.dua {
+  background-color: lightpink;
+  width: 75px;
+}
