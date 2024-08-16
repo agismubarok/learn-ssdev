@@ -1,0 +1,23 @@
+p {
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.satu {
+  background-color: lightpink;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dua {
+  height: 100px;
+  width: 200px;
+  background-color: lightblue;
+}
+
+.container {
+  display: flex;
+}

@@ -1,0 +1,29 @@
+.satu {
+  background-color: lightpink;
+  width: 100px;
+}
+.dua {
+  height: 100px;
+  width: 200px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+.a {
+  color: black;
+}
+.b {
+  background-color: black;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+}
