@@ -1,0 +1,27 @@
+body {
+  height: 3000px;
+}
+
+.container {
+  width: 250px;
+  height: 250px;
+  background-color: gray;
+  position: relative;
+  display: inline-block;
+}
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.diskon {
+  position: absolute;
+  font-size: 12px;
+  font-family: arial;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  padding: 4px 6px 4px;
+  top: 10px;
+  right: 0;
+}

@@ -1,0 +1,40 @@
+body {
+  height: 3000px;
+}
+
+.container {
+  background-color: gray;
+  height: 250px;
+  width: 250px;
+  position: relative;
+}
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.diskon {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: arial;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  padding: 4px 6px 4px;
+}
+.overlay {
+  background-color: rgba(255, 255, 255, 0.483);
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  font-size: 14px;
+  padding: 4px 6px 4px;
+}
