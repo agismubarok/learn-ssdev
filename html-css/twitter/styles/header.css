@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  height: 50px;
+}
+.left {
+  width: 300px;
+  background-color: red;
+}
+.mid {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.mid p {
+  font-weight: 600;
+}
+.right {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right input {
+  padding: 4px 6px 4px;
+  width: 150px;
+  border: none;
+}
