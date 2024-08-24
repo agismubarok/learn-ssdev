@@ -15,6 +15,7 @@ header {
   flex: 1;
   align-items: center;
   justify-content: center;
+  background-color: white;
 }
 .mid p {
   font-weight: 600;

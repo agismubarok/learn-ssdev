@@ -1,0 +1,7 @@
+aside {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 300px;
+  display: flex;
+}

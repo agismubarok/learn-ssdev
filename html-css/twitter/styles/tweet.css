@@ -1,0 +1,74 @@
+article {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  row-gap: 20px;
+}
+.tweet {
+  display: flex;
+  border-bottom: 1px solid rgb(239, 243, 244);
+  width: 700px;
+}
+.isi-tweet {
+  width: 550px;
+  padding-bottom: 5px;
+  line-height: 22px;
+}
+.link {
+  color: rgb(46, 155, 240);
+}
+.tweet img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 10px;
+}
+.information .account {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.information .isi-tweet {
+  font-size: 14px;
+}
+.account {
+  justify-content: space-between;
+}
+.account .nama {
+  font-weight: 700;
+}
+.account .status {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+}
+.account img {
+  height: 20px;
+  width: 20px;
+}
+
+.actions {
+  margin: 10px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+.tombol {
+  display: flex;
+}
+
+.tombol img {
+  height: 20px;
+  width: 20px;
+}
+.tombol .komen {
+  font-size: 14px;
+  padding-left: 5px;
+  color: #5f6368;
+}
