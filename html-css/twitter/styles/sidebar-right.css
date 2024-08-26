@@ -4,4 +4,42 @@ aside {
   right: 0;
   width: 300px;
   display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgb(239, 243, 244);
+}
+aside .for {
+  display: flex;
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.containerku {
+  position: relative;
+  padding-top: 25px;
+  padding-left: 20px;
+  line-height: 20px;
+}
+.containerku .hastag {
+  font-size: 14px;
+  font-weight: 700;
+}
+.containerku .trafic {
+  font-size: 12px;
+  font-weight: 300;
+  color: rgb(54, 79, 94);
+}
+.trending {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+.trending img {
+  height: 20px;
+  width: 20px;
+}
+.trending p {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(54, 79, 94);
 }
