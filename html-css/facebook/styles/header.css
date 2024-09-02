@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left {
+  align-items: center;
+  display: flex;
+}
+.nav-left img {
+  height: 40px;
+  width: 40px;
+}
+.nav-left input {
+  padding: 9px 12px;
+  border: none;
+  background-color: rgb(58, 59, 60);
+}
+.search-btn {
+  display: flex;
+  align-items: center;
+  background-color: rgb(58, 59, 60);
+  margin-right: -3px;
+  padding: 2.5px;
+}
+.search-btn img {
+  height: 28px;
+  width: 28px;
+}
